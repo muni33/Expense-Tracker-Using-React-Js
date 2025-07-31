@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.setscreen{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+}
+
+.add-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:400px;
+  width: 400px;
+  background-color: rgb(142, 235, 237);
+  padding-left: 20px;
+  margin-left: 0px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+input[type="text"] {
+   width: 100%;
+   padding: 5px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 4px;
+   resize: vertical;
+   margin-right: 8px;
+   font-size: 18px;
+   
+}
+
+label {
+  font-size: 25px;
+}
+
+.submit-btn{
+  background-color: rgb(19, 182, 38);
+  color: white;   
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100px;
+}
+.heading{
+  text-align: center;
+  margin-right: 330px;
+  font-size: 50px;
+}
+
+.item-list {
+  list-style: none;
+  text-align: center;
+  padding-left: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list{
+  background-color : lightgreen;
+  height:180px;
+  width: 400px;
+  padding-left: 0px;
+  margin-left: 0px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.list-div{
+  padding:6px;
+  text-align: center;
+}
+
+.delete-btn{
+  background-color: rgb(255, 0, 0);
+  color: white;   
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgba(175, 36, 36, 0.5);
+  margin-top: 14px;
+  padding : 9px;
+  width: 100px;
+}
